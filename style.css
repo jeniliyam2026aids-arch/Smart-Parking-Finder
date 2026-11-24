@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f7fb;
+    color: #333;
+}
+
+header {
+    background-color: #142d4e;
+    color: white;
+    padding: 20px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-size: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #00d4ff;
+}
+
+.hero {
+    background: linear-gradient(120deg, #142d4e, #2878b5);
+    color: white;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+.hero h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 25px;
+}
+
+.btn {
+    background-color: #00c896;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.search {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.search h2 {
+    margin-bottom: 20px;
+}
+
+.search input {
+    padding: 12px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #00a878;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #087b5c;
+}
+
+.parking {
+    padding: 40px 7%;
+    text-align: center;
+}
+
+.parking h2 {
+    margin-bottom: 30px;
+}
+
+.parking-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    width: 280px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.card h3 {
+    color: #142d4e;
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin: 12px 0;
+}
+
+.available {
+    color: #00a878;
+    font-weight: bold;
+}
+
+.card button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #142d4e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 8px;
+    }
+
+    .hero h2 {
+        font-size: 27px;
+    }
+
+    .search input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
